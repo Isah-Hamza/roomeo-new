@@ -57,18 +57,7 @@ const Download = () => {
           </div>
         </div>
       </div>
-      {/* <div className="mt-20 max-w-[700px] rounded-xl p-3 bg-faint-red mx-auto ">
-        <iframe
-          className="rounded-xl"
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/ORxJ0ZvzW4Y?si=xIzAO6IqzspVVAOJ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div> */}
+     
     </div>
   );
 };

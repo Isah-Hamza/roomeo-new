@@ -5,10 +5,20 @@ import new_hero from '../assets/images/hero2.png';
 import spiral from '../assets/images/spiral-bind.png';
 
 import { HashLink as Link } from 'react-router-hash-link';
+import { BiCheck, BiLogoPlayStore } from 'react-icons/bi';
+import { BsArrowRight } from 'react-icons/bs';
+import { FaAppStore } from 'react-icons/fa';
+
+const List = ({content}) => {
+    return <div className="flex items-center gap-3">
+        <div className="w-8 h-8 rounded-full bg-primary-red grid place-content-center">
+            <BiCheck size={30} />
+        </div>
+        <p className='font-medium' > {content}</p>
+    </div>
+};
 
 const Hero = () => {
-
-
     return (
         <div className="pt-16 bg-[#F45E5105] relative overflow-x-hidden max-w-[1300px] px-10 mx-auto">
             <div className='flex flex-col-reverse md:grid grid-cols-[.9fr,1.1fr] gap-10 z-10 overflow-y pb-10'>
@@ -26,9 +36,19 @@ const Hero = () => {
                             <div className=""></div>
                         </div>
                     </div>
-                    <div className="flex flex-col sm:flex-row items-center gap-5 mt-8">
-                        <button>1</button>
-                        <button>2</button>
+                    <div className="grid gap-3 mt-10">
+                        <List content={'Average annual return on investment up to 15%'} />
+                        <List content={'Withdraw earnings weekly'} />
+                        <List content={'Fully managed by experts'} />
+                    </div>
+                    <div className="flex items-center gap-3 mt-8">
+                        <button className="bg-[#81231b] text-white py-3 px-7 rounded-lg flex items-center gap-2">Start Investing
+                        <BsArrowRight />
+                        </button>
+                        <button className="bg-primary-red text-white py-3 px-7 rounded-lg flex items-center gap-2">
+                            <BiLogoPlayStore size={18} />
+                            <FaAppStore />
+                            Download App</button>
                     </div>
                     
                 </div>

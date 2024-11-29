@@ -36,3 +36,20 @@
 .animate-custom-bounce {
     animation: customBounce 6s infinite;
 }
+
+.about .player img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.about .player video{
+    min-height: 650px !important;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}

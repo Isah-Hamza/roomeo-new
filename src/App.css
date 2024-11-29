@@ -93,3 +93,10 @@
   font-family: Arial !important;
   word-break: break-word !important;
 }
+
+@media screen and (max-width:600px){
+  .about .player video {
+    min-height: 350px !important;
+    max-height: 550px !important;
+  }
+}

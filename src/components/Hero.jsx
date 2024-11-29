@@ -20,7 +20,7 @@ const List = ({content, idx}) => {
 
 const Hero = () => {
     return (
-        <div className="pt-16 bg-[#F45E5105] relative overflow-x-hidden max-w-[1300px] px-10 mx-auto">
+        <div className="pt-16 bg-[#F45E5105] relative overflow-x-hidden max-w-[1300px] px-5 sm:px-10 mx-auto">
             <div className='flex flex-col-reverse md:grid grid-cols-[.9fr,1.1fr] gap-10 z-10 overflow-y pb-10'>
                 <div className='pt-26'>
                     <h3 data-aos="fade-up" className='hidden md:block text-5xl lg:text-7xl tracking-tight !font-bold'>
@@ -42,10 +42,10 @@ const Hero = () => {
                         <List idx={3} content={'Fully managed by experts'} />
                     </div>
                     <div className="flex items-center gap-3 mt-8">
-                        <button className="bg-[#81231b] text-white py-3 px-7 rounded-lg flex items-center gap-2">Start Investing
+                        <button className="bg-[#81231b] text-sm sm:text-base text-white py-3 px-4 sm:px-7 rounded-lg flex items-center gap-2">Start Investing
                         <BsArrowRight />
                         </button>
-                        <button className="bg-primary-red text-white py-3 px-7 rounded-lg flex items-center gap-2">
+                        <button className="bg-primary-red text-sm sm:text-base text-white py-3 px-4 sm:px-7 rounded-lg flex items-center gap-2">
                             <BiLogoPlayStore size={18} />
                             <FaAppStore />
                             Download App</button>

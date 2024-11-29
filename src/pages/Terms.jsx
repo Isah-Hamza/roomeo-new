@@ -6,9 +6,11 @@ const Terms = () => {
   return (
     <div>
         <Header />
-        <div className='w-full px-10 py-20 mx-auto mt-12' >
+        <div className="mt-[100px] md:mt-[150px]"></div>
+
+        <div className='w-full px-10 py-20 mx-auto md:mt-12' >
             <div className="text-center">
-                <h1 className='text-5xl font-semibold' >Terms and Conditions</h1>
+                <h1 className='text-4xl md:text-5xl font-semibold' >Terms and Conditions</h1>
             </div>
         </div>
         <div className="bg-white py-14 text-base sm:text-lg">

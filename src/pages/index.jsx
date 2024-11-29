@@ -13,6 +13,7 @@ const Home = () => {
   return (
     <div>
       <Header />
+      <div className="mt-[100px]"></div>
       <Hero />
       <Review />
       <Download />

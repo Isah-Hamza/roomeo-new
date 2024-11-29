@@ -4,9 +4,9 @@ import Footer from '../../components/Footer'
 import { Link } from 'react-router-dom'
 
 const BlogItem = ({ src, title, desc,id }) => (
-    <Link to={`/blog/${id}`} className='flex gap-8 items-center' >
+    <Link to={`/blog/${id}`} className='grid md:flex gap-8 items-center' >
         <div className='' >
-            <img className='max-w-[500px] rounded-lg' src={src} alt="blog image" />
+            <img className=' w-full sm:w-[unset] sm:max-w-[500px] rounded-lg' src={src} alt="blog image" />
         </div>
         <div className="">
             <h3 className='text-3xl font-semibold mb-3 opacity-60' >
@@ -21,9 +21,10 @@ const Blog = () => {
   return (
     <div>
         <Header />
-        <div className='about max-w-[1100px] px-10 mx-auto mt-12' >
+        <div className="mt-[150px]"></div>
+        <div className='about max-w-[1100px] px-5 sm:px-10 mx-auto mt-12' >
             <div className="text-center">
-                <h1 className='text-7xl font-semibold' >Blog</h1>
+                <h1 className='text-5xl sm:text-7xl font-semibold' >Blog</h1>
             </div>
             <div className="grid my-20 gap-16">
                 <BlogItem

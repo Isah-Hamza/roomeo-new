@@ -55,9 +55,9 @@ const Hero = () => {
                 <img className='animate-custom-bounce w-full' src={new_hero} alt="hero" />
 
                 <h3 className='!font-fellixBold tracking-wide text-4xl block md:hidden text-center'>
-                    Trusted platform for
-                    <span className='text-primary-red px-2 !font-fellixBold'>fractional</span>
-                    real estate investment
+                Earn real estate
+                    <span className='text-primary-red px-2 !font-fellixBold'>income</span>
+                    by co-owning a house
                 </h3>
             </div >
         </div >

@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div className='mt-7 max-w-[1100px] min-h-[70px] rounded-[40px] border border-white mx-auto px-10 flex justify-between items-center gap-10'>
-      <div className="">
+      <Link to={'/'} className="">
         <img src={logo} alt="logo" />
-      </div>
+      </Link>
       <div className="">
         <ul className='flex items-center gap-5' >
-            <li> <Link href="">About Us</Link></li>
-            <li> <Link href="">Blog</Link></li>
-            <li> <Link href="">FAQs</Link></li>
+            <li> <Link to="/about-us">About Us</Link></li>
+            <li> <Link to="/blog">Blog</Link></li>
+            <li> <Link to="/home#faq">FAQs</Link></li>
         </ul>
       </div>
       <div className="flex items-center gap-3">

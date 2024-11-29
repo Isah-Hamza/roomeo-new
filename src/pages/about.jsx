@@ -71,8 +71,8 @@ const About = () => {
                 <div className="grid md:grid-cols-[1fr,1fr] items-center gap-14 py-20 text-center md:text-left ">
                     <img src={about2} alt="about us" className='w-full max-h-[400px]' />
                     <div className='text-3xl opacity-60'>
-                        <p className='font-semibold my-3'>Work ends when the job  is done</p>
-                        <p className='leading-normal'>
+                        <p className='font-bold my-3'>Work ends when the job  is done</p>
+                        <p className='font-light leading-normal'>
                             We are a dedicated team and characterized by our strong work ethic, our willingness to go above and beyond, and our ability to collaborate effectively.                </p>
                     </div>
                 </div>

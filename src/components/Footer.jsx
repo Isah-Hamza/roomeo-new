@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className='mt-10'>
+    <div className=''>
       <div className='bg-[#262626] w-full min-h-[100px] '>
         <div className="max-w-[1300px] mx-auto px-10 py-7 grid grid-cols-[2fr,1fr,1fr]">
           <div className="">
@@ -24,7 +24,7 @@ const Footer = () => {
             <p className='font-semibold mb-5' >Pages</p>
             <ul className='font-light opacity-70 grid gap-3'>
               <li><Link to={''} >About Us</Link></li>
-              <li><Link to={''} >Contact Us</Link></li>
+              <li><a target='_blank' href='https://api.whatsapp.com/send?phone=2349090606099' to={''} >Contact Us</a></li>
               <li><Link to={''} >Privacy Policy</Link></li>
               <li><Link to={''} >Terms and Conditions</Link></li>
             </ul>

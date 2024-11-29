@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 import { Link } from 'react-router-dom'
 
 const BlogItem = ({ src, title, desc,id }) => (
-    <Link to={`/blogs/${id}`} className='flex gap-8 items-center' >
+    <Link to={`/blog/${id}`} className='flex gap-8 items-center' >
         <div className='' >
             <img className='max-w-[500px] rounded-lg' src={src} alt="blog image" />
         </div>

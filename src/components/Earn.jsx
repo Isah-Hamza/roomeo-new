@@ -21,7 +21,7 @@ const Earn = () => {
       <h2 className='text-6xl font-bold text-center leading-tight tracking-tight'>
       Real estate is the <br />cornerstone to build  <br />your wealth.
       </h2>
-      <div className="grid grid-cols-3 gap-6 mt-20">
+      <div data-aos="fade-up" className="grid grid-cols-3 gap-6 mt-20">
         <Card 
             icon={<BsWallet size={30} />}
             title={'Buy'}

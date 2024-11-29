@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import './App.css'
 import Home from './pages'
@@ -8,8 +8,15 @@ import PrivacyPolicy from './pages/privacy'
 import Terms from './pages/Terms'
 import Blog from './pages/blog'
 import BlogDetails from './pages/blog/blog'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   return (
     <div className='bg-black text-white min-h-screen overflow-auto' >

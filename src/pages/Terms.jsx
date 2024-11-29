@@ -11,7 +11,7 @@ const Terms = () => {
                 <h1 className='text-5xl font-semibold' >Terms and Conditions</h1>
             </div>
         </div>
-        <div className="bg-white py-14">
+        <div className="bg-white py-14 text-base sm:text-lg">
           <div className="max-w-[1200px] px-10 mx-auto text-black grid gap-4">
           <p><strong>1. Introduction</strong></p>
 <p>Welcome to Roomeo Fractional Investment Platform. These Terms and Conditions ("Terms") govern your access to and use of the Roomeo website, mobile application, and related services (collectively referred to as the "Platform"). By accessing or using the Platform, you agree to comply with and be bound by these Terms.</p>

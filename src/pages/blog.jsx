@@ -29,7 +29,7 @@ const Blog = () => {
                 <BlogItem
                     src={"https://framerusercontent.com/images/QwLWaIe5lyB4uPt9Oz3Cq0dFno.jpg"}
                     title={"5 Reasons Economic Crunch Shouldn't Stop You from Investing Real Estate"}
-                    id={'5-reasons-economic-crunch-should-not-stop-you-from-investing-real-estate'}
+                    id={'economic-crunch'}
                     desc="Economic downturns can bring valuable opportunities, especially in fractional real estate. Here’s why investing now could be a smart move."
                  />
                 <BlogItem

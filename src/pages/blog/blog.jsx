@@ -6,20 +6,23 @@ import { blogs } from '../../data/blog';
 const BlogDetails = () => {
 
     const path = useLocation().pathname;
+    const id = path.split('/')[2];
+
+    const blog = blogs.find(item => item.id == id);
 
   return (
     <div>
         <Header />
         <div className='about max-w-[1300px] px-10 mx-auto mt-12' >
             <div className="text-center">
-                <h1 className='text-7xl tracking-tight font-semibold' >{blogs[0].title}</h1>
+                <h1 className='text-7xl tracking-tight font-semibold' >{blog.title}</h1>
             </div>
             <div className="grid my-20 gap-16 mx-auto w-full">
                 <p className='text-lg flex items-center gap-2 font-semibold text-center justify-center' >
-               <span>  {blogs[0].author}</span> <span>{blogs[0].date}</span>
+               <span>  {blog.author}</span> <span>{blog.date}</span>
                 </p>
-                <img src={blogs[0].src} className='w-full' />
-                <div className="grid gap-5 text-left opacity-60" dangerouslySetInnerHTML={{__html: blogs[0].content}} >
+                <img src={blog.src} className='w-full' />
+                <div className="grid gap-5 text-left opacity-60" dangerouslySetInnerHTML={{__html: blog.content}} >
                 </div>
             </div>
         </div>

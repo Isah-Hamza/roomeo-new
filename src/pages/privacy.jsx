@@ -10,7 +10,6 @@ const PrivacyPolicy = () => {
             <div className="text-center">
                 <h1 className='text-7xl font-semibold' >Privacy Policy</h1>
             </div>
-            
         </div>
         <Footer />
     </div>

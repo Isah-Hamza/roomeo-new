@@ -7,7 +7,7 @@ const Review = () => {
         <p className='text-center font-bold text-5xl mb-2' >What our users are saying</p>
        <div className="  ">
         <iframe
-          className="rounded-xl h-[400px] md:h-[600px]"
+          className="rounded-xl h-[400px] md:h-[600px] bg-gray-50"
           width="100%"
           // height="auto"
           src="https://www.youtube.com/embed/fTldkl0vJZs"

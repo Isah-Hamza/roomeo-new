@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://privacy.roomeo.ng/", { mode:"no-cors" });
+        const response = await fetch("https://privacy.roomeo.ng/");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

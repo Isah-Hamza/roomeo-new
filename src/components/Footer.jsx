@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className=''>
-      <div className='bg-[#262626] w-full min-h-[100px] '>
+      <div className='bg-[#ebebeb] dark:bg-[#262626] w-full min-h-[100px] '>
         <div className="max-w-[1300px] mx-auto px-10 py-7 grid sm:grid-cols-[2fr,1fr,1fr] gap-16 sm:gap-0">
           <div className="">
             <img src={logo} alt="logo" />

@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="pt-16 bg-[#F45E5105] relative overflow-x-hidden max-w-[1300px] px-5 sm:px-10 mx-auto">
             <div className='flex flex-col-reverse md:grid grid-cols-[.9fr,1.1fr] gap-10 z-10 overflow-y pb-10'>
                 <div className='pt-26'>
-                    <h3 data-aos="fade-up" className='hidden md:block text-5xl lg:text-7xl tracking-tight !font-bold'>
+                    <h3 data-aos="fade-up" className='custom-title hidden md:block text-5xl lg:text-7xl tracking-tight !font-bold'>
                         <p className='!font-bold'> Earn real estate</p>
                         <div className='relative !font-bold w-fit inline-block mr-5'>
                             <img className='absolute -left-7 top-2 w-52 lg:w-[270px] max-w-[unset]' src={spiral} alt="spiral" />
@@ -54,7 +54,7 @@ const Hero = () => {
                 </div>
                 <img className='animate-custom-bounce w-full' src={new_hero} alt="hero" />
 
-                <h3 className='!font-fellixBold tracking-wide text-4xl block md:hidden text-center'>
+                <h3 className='custom-title tracking-wide text-4xl block md:hidden text-center'>
                 Earn real estate
                     <span className='text-primary-red px-2 !font-fellixBold'>income</span>
                     by co-owning a house

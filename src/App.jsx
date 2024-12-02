@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div className='bg-black text-white min-h-screen overflow-auto' >
+    <div className='dark:bg-black dark:text-white min-h-screen overflow-auto' >
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />

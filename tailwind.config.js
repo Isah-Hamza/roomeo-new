@@ -10,7 +10,8 @@ export default {
         'primary-red': '#F45E51',
         'dark-black': '#434343',
         'light-dark': '#333333',
-        'faint-red': '#F45E511F'
+        'faint-red': '#F45E511F',
+        'primary-purple': '#81231b',
       },
     },
   },

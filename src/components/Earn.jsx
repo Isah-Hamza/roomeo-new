@@ -4,7 +4,7 @@ import { PiMoneyLight } from "react-icons/pi";
 import { BsWallet } from "react-icons/bs";
 
 const Card = ({ icon , title, description}) => (
-    <div className="bg-[#262626] p-10 rounded-xl">
+    <div className="bg-gray-100 dark:bg-[#262626] p-10 rounded-xl">
         <div className="bg-primary-red w-16 h-16 rounded-3xl grid place-content-center">
             {icon}
         </div>

@@ -30,7 +30,7 @@ const Grow = () => {
   }, []);
 
   return (
-    <div className='mt-20 w-[90%] lg:max-w-[1150px] mx-auto p-10 rounded-3xl bg-[#262626] text-center '>
+    <div className='mt-20 w-[90%] lg:max-w-[1150px] mx-auto p-10 rounded-3xl bg-[#faf2f2] dark:bg-[#262626] text-center '>
       {/* <div>
         <p className='text-6xl font-bold' >Grow Your Money</p>
         <p className='text-6xl font-bold' >Low cost entry</p>

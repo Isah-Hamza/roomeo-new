@@ -7,6 +7,10 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.custom-title{
+  @apply text-primary-purple dark:text-white
+}
+
 @keyframes customBounce {
   0% {
     transform: translateY(0px);

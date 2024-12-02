@@ -26,7 +26,7 @@ const Header = () => {
   ]
 
   return (
-    <div className={`z-20 bg-black/95 fixed w-full top-0 left-0 ${open ? 'h-[370px] md:h-[100px]' : ' h-[100px]'} `} >
+    <div className={`z-20 bg-white/95 dark:bg-black/95 fixed w-full top-0 left-0 ${open ? 'h-[370px] md:h-[100px]' : ' h-[100px]'} `} >
       <div data-aos="fade-down" className="py-3 mt-7 max-w-[95%] lg:max-w-[1150px] min-h-[70px] rounded-[40px] border border-white mx-auto px-10 ">
         <div  className='flex justify-between items-center gap-10'>
           <Link to={'/'} className="">

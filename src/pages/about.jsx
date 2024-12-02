@@ -33,7 +33,7 @@ const About = () => {
 
       <div className='about max-w-[1400px] px-10 mx-auto mt-12' >
         <div data-aos="fade-up" className="text-center">
-            <h1 className='text-5xl md:text-7xl font-semibold' >About Us</h1>
+            <h1 className='text-5xl md:text-7xl font-semibold custom-title' >About Us</h1>
             <p className='text-2xl sm:text-4xl max-w-[700px] mx-auto opacity-40 mt-24' >We are a trusted property investment company focused on making real estate investments more accessible and profitable for you.</p>
         </div>
         <div className="player grid md:grid-cols-4 gap-5 mt-14">
@@ -42,23 +42,23 @@ const About = () => {
                 />
                 Sorry, your browser doesn't support videos.
             </video>
-            <div className="gap-3 sm:max-h-[650px] h-full grid sm:grid-cols-2 md:grid-rows-2">
-                <img className='!h-full w-full' src={grid1} alt="" />
-                <img className='!h-full w-full' src={grid2} alt="" />
+            <div className="gap-3 sm:max-h-[650px] h-full grid md:grid-rows-2">
+                <img className='!h-full w-full max-h-[300px] md:max-h-[unset] min-h-[200px] md:min-h-[unset]' src={grid1} alt="" />
+                <img className='!h-full w-full max-h-[300px] md:max-h-[unset] min-h-[200px] md:min-h-[unset]' src={grid2} alt="" />
             </div>
             <video width="100%" autoPlay muted loop >
                 <source src={vid2}  type="video/mp4"
                 />
                 Sorry, your browser doesn't support videos.
             </video>
-            <div className="gap-3 sm:max-h-[650px] h-full grid sm:grid-cols-2 md:grid-rows-2">
-                <img className='h-full w-full' src={'https://framerusercontent.com/images/X1uaRtDUpoC0NTHRCtpXBTfnhUg.jpg?scale-down-to=1024'} alt="" />
-                <img className='h-full w-full' src={'https://framerusercontent.com/images/cTDdOwnxTTOUsiItqaD0xZr1ys.jpg?scale-down-to=1024'} alt="" />
+            <div className="gap-3 sm:max-h-[650px] h-full grid md:grid-rows-2">
+                <img className='h-full w-full max-h-[300px] md:max-h-[unset] min-h-[200px] md:min-h-[unset]' src={'https://framerusercontent.com/images/X1uaRtDUpoC0NTHRCtpXBTfnhUg.jpg?scale-down-to=1024'} alt="" />
+                <img className='h-full w-full max-h-[300px] md:max-h-[unset] min-h-[200px] md:min-h-[unset]' src={'https://framerusercontent.com/images/cTDdOwnxTTOUsiItqaD0xZr1ys.jpg?scale-down-to=1024'} alt="" />
             </div>
         </div>
         <div className="mt-28 max-w-[1100px] mx-auto">
             <div className="">
-                <h1 className='text-5xl sm:text-7xl font-semibold text-center' >Meet the team</h1>
+                <h1 className='text-5xl sm:text-7xl font-semibold text-center custom-title' >Meet the team</h1>
                 <div className="grid justify-center md:flex md:justify-between gap-10 mt-10">
                     <Team img={team1} name={'Doyin Adewole'} position={'CEO'} />
                     <Team img={team2} name={'Akintoye'} position={'COO'} />

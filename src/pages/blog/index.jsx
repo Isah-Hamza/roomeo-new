@@ -9,7 +9,7 @@ const BlogItem = ({ src, title, desc,id }) => (
             <img className=' w-full sm:w-[unset] sm:max-w-[500px] rounded-lg' src={src} alt="blog image" />
         </div>
         <div className="">
-            <h3 className='text-3xl font-semibold mb-3 opacity-60' >
+            <h3 className='custom-title text-3xl font-semibold mb-3 opacity-80 dark:opacity-70' >
             {title}
             </h3>
             <p className='text-sm opacity-85' >{desc}</p>
@@ -24,7 +24,7 @@ const Blog = () => {
         <div className="mt-[150px]"></div>
         <div className='about max-w-[1100px] px-5 sm:px-10 mx-auto mt-12' >
             <div className="text-center">
-                <h1 className='text-5xl sm:text-7xl font-semibold' >Blog</h1>
+                <h1 className='text-5xl sm:text-7xl font-semibold custom-title' >Blog</h1>
             </div>
             <div className="grid my-20 gap-16">
                 <BlogItem

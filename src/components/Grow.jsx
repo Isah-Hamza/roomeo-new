@@ -41,7 +41,7 @@ const Grow = () => {
         <AnimatePresence mode='wait' >
           <motion.div
             key={currentFeatureIndex}
-            className="feature-item font-bold text-[30px] md:text-[60px]"
+            className="feature-item font-bold text-[30px] md:text-[60px] custom-title"
             variants={featureVariants}
             initial="hidden"
             animate="visible"
@@ -55,7 +55,7 @@ const Grow = () => {
           </motion.div>
         </AnimatePresence>
       </div>
-      <button className="mt-28 bg-white text-black py-2 px-7 rounded-3xl">Sign Up</button>
+      <button className="mt-28 bg-primary-purple dark:bg-white text-white dark:text-black  py-2 px-7 rounded-3xl">Sign Up</button>
     </div>
   )
 }

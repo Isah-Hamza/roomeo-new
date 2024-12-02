@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Download = () => {
   return (
     <div className="max-w-[1300px] px-5 sm:px-10 mx-auto py-14 pb-0 bg-[#66303105] items-center">
-      <h2 className='mb-7 text-4xl md:text-6xl font-bold text-center leading-tight tracking-tight'>
+      <h2 className='custom-title mb-7 text-4xl md:text-6xl font-bold text-center leading-tight tracking-tight'>
       Invest in income- <br />
        generating real estate, <br /> easily.
       </h2>

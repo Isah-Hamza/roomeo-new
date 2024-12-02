@@ -18,7 +18,7 @@ const Card = ({ icon , title, description}) => (
 const Earn = () => {
   return (
     <div className='w-[90%] lg:max-w-[1300px] mx-auto px-3 sm:px-10 my-20' >
-      <h2 className='text-3xl md:text-6xl font-bold text-center leading-tight tracking-tight'>
+      <h2 className='custom-title text-3xl md:text-6xl font-bold text-center leading-tight tracking-tight'>
       Real estate is the <br />cornerstone to build  <br />your wealth.
       </h2>
       <div data-aos="fade-up" className="grid md:grid-cols-3 gap-6 mt-20">

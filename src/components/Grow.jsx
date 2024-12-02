@@ -55,7 +55,8 @@ const Grow = () => {
           </motion.div>
         </AnimatePresence>
       </div>
-      <button className="mt-28 bg-primary-purple dark:bg-white text-white dark:text-black  py-2 px-7 rounded-3xl">Sign Up</button>
+      <p className='text-center mt-20' >We are leveling the playing field for individuals who wants to earn from property ownership.</p>
+      <button className="mt-5 bg-primary-purple dark:bg-white text-white dark:text-black  py-2 px-7 rounded-3xl">Sign Up</button>
     </div>
   )
 }

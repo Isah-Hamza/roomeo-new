@@ -26,7 +26,6 @@ const Footer = () => {
               <li><Link to={'/about-us'} >About Us</Link></li>
               <li><a target='_blank' href='https://api.whatsapp.com/send?phone=2349090606099' to={''} >Contact Us</a></li>
               <li><a href={'https://privacy.roomeo.ng/'} target='_blank'  >Privacy Policy</a></li>
-              {/* <li><Link to={'/privacy-policy'} >Privacy Policy</Link></li> */}
               <li><Link to={'/terms-and-conditions'} >Terms and Conditions</Link></li>
             </ul>
           </div>

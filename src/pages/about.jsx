@@ -61,7 +61,7 @@ const About = () => {
                 <h1 className='text-5xl sm:text-7xl font-semibold text-center custom-title' >Meet the team</h1>
                 <div className="grid justify-center md:flex md:justify-between gap-10 mt-10">
                     <Team img={team1} name={'Doyin Adewole'} position={'CEO'} />
-                    <Team img={team2} name={'Akintoye'} position={'COO'} />
+                    <Team img={team2} name={'Akintayo'} position={'COO'} />
                     <Team img={team3} name={'Jumoke'} position={'CTO'} />
                 </div>
                 <div className="grid justify-center md:flex md:justify-between gap-10 mt-10">

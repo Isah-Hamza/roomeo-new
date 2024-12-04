@@ -13,11 +13,15 @@ import team3 from '../assets/images/team3.webp';
 import team4 from '../assets/images/team4.webp';
 import team5 from '../assets/images/team5.webp';
 import team6 from '../assets/images/team6.webp';
+import patience from '../assets/images/Patience.png';
+import victor from '../assets/images/victor.png';
+
+
 import { MdArrowRightAlt } from 'react-icons/md'
 
 const Team = ({img, name, position}) => (
     <div className="grid gap-3">
-        <img className='object-cover rounded-full w-[230px] h-[230px]' src={img} alt={name} />
+        <img className='object-cover rounded-full w-[200px] h-[200px]' src={img} alt={name} />
         <div className='text-center font-semibold' >
             <p>{name}</p>
             <p className='opacity-70' >{position}</p>
@@ -65,9 +69,9 @@ const About = () => {
                     <Team img={team3} name={'Jumoke'} position={'CTO'} />
                 </div>
                 <div className="grid justify-center md:flex md:justify-between gap-10 mt-10">
-                    <Team img={team4} name={'Amarii'} position={'Creator'} />
+                    <Team img={patience} name={'Patience'} position={'Creator'} />
                     <Team img={team5} name={'Joshua'} position={'Design'} />
-                    <Team img={team6} name={'Jolly'} position={'Developer'} />
+                    <Team img={victor} name={'Victor'} position={'Developer'} />
                 </div>
             </div>
             <div className="mt-12">

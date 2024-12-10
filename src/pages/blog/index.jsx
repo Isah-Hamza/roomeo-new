@@ -55,7 +55,7 @@ const Blog = () => {
                     src={"https://framerusercontent.com/images/MSqRckGnouUDfvuIkfsV73vuT4.jpg"}
                     title={"What is Fractional Real Estate Investment"}
                     id={"what-is-fractional-real-estate"}
-                    desc="In this blog post, our CEO Mr Doyin Adewola explains what  Fractional Real Estate Investment is and why you should start investing."
+                    desc="In this blog post, our CEO Mr Doyin Adewole explains what  Fractional Real Estate Investment is and why you should start investing."
                  />
             </div>
         </div>

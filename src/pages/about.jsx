@@ -15,7 +15,7 @@ import team5 from '../assets/images/team5.webp';
 import team6 from '../assets/images/team6.webp';
 import patience from '../assets/images/Patience.png';
 import victor from '../assets/images/victor.png';
-
+import shola from '../assets/images/shola.png';
 
 import { MdArrowRightAlt } from 'react-icons/md'
 
@@ -64,14 +64,18 @@ const About = () => {
             <div className="">
                 <h1 className='text-5xl sm:text-7xl font-semibold text-center custom-title' >Meet the team</h1>
                 <div className="grid justify-center md:flex md:justify-between gap-10 mt-10">
-                    <Team img={team1} name={'Doyin Adewole'} position={'CEO'} />
+                    <Team img={team1} name={'Doyin'} position={'CEO'} />
                     <Team img={team2} name={'Akintayo'} position={'COO'} />
-                    <Team img={team3} name={'Jumoke'} position={'CTO'} />
+                    <Team img={shola} name={'Shola'} position={'CTO'} />
+
                 </div>
                 <div className="grid justify-center md:flex md:justify-between gap-10 mt-10">
-                    <Team img={patience} name={'Patience'} position={'Creator'} />
+                    <Team img={patience} name={'Patience'} position={'Finance Lead'} />
                     <Team img={team5} name={'Joshua'} position={'Design'} />
-                    <Team img={victor} name={'Victor'} position={'Developer'} />
+                    <Team img={victor} name={'Victor'} position={'Property Manager'} />
+                </div>
+                <div className="flex justify-center items-center md:flex md:justify-center gap-10 mt-10">
+                <Team img={team3} name={'Jumoke'} position={'CTO'} />
                 </div>
             </div>
             <div className="mt-12">
